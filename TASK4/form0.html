@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html form</title>
+</head>
+
+<body>
+    <form name="form0" action="http://www.vishalform.com" method="post">
+        <table bgcolor=" silver" cellpadding="4px" cellspacing="4px">
+            <caption>
+                <h2>Registration from</h2>
+            </caption>
+            <tr>
+                <td>
+                    <label for="1">First Name</label>
+
+                    <br>
+                    <input type="text" id="1" name="firstName" required placeholder="Enter First Name">
+                </td>
+                <td>
+                    <label for="2">Last Name</label>
+                    <br>
+                    <input type="text" id="2" name="lastName" required placeholder="Enter Last Nmae">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="3">Date of Birth</label>
+                    <br>
+                    <input type="date" id="3" name="dateOfBirth" required>
+                </td>
+                <td>
+                    <label for="4">Gender</label>
+                    <br>
+                    <input type="radio" value="male" id="4" name="gender" required>male
+                    <input type="radio" value="male" id="4" name="gender" required>female
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="5">Email</label>
+                    <br>
+                    <input type="email" id="5" name="email" required placeholder="Enter email id">
+                </td>
+                <td>
+                    <label for="6">phone</label>
+                    <br>
+                    <input type="number" id="6" name="phone" required placeholder="Enter phone number..">
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="7">subject</label>
+                    <br>
+                    <select id="7" name="subject" required style="width: 100%;">
+                        <option value="chose">chose options</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="8">submit</label>
+                    <br>
+                    <input type="submit" value="Submit" align="led" id="8" name="submit" required>
+                </td>
+            </tr>
+
+
+        </table>
+    </form>
+
+</body>
+
+</html>
